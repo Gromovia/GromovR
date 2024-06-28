@@ -1,0 +1,5 @@
+﻿  Programa.cpp
+C:\Users\ilya-\OneDrive\Рабочий стол\GIT\laba\Gromov_Repository_v3\Gromov_Repository_v3_0\Programa\Programa\Programa.cpp(24,13): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\ilya-\OneDrive\Рабочий стол\GIT\laba\Gromov_Repository_v3\Gromov_Repository_v3_0\Programa\Programa\Programa.cpp(25,13): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\ilya-\OneDrive\Рабочий стол\GIT\laba\Gromov_Repository_v3\Gromov_Repository_v3_0\Programa\Programa\Programa.cpp(26,13): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\ilya-\OneDrive\Рабочий стол\GIT\laba\Gromov_Repository_v3\Gromov_Repository_v3_0\Programa\Programa\Programa.cpp(17,1): fatal  error C1075: "{": не найдена несоответствующая лексема
