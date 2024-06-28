@@ -2,29 +2,42 @@
 
 #include <iostream>
 using namespace std;
-double enterA() {
+double enterA(double a) {
+    cout << "vvedite polojitelnoe chislo A\n";
+    cin >> a;
+    if (a <= 0) {
+        cout << "error\n";
+    }
+    else {
+        cout << "Vi vveli polojitelnoe chislo\n";
+    }
+    return 0;
 
 }
 double stre() {
-
+    return 0;
 }
 
 double pertre() {
-
+    return 0;
 }
 
 int main()
 {
-    int a = 0;
-    cout << "1 - ввести положительное число А\n" << "2 - вычислить площадь равностороннего треугольника S = а2\n" << "3 - вычислить периметр равностороннего треугольника Р = 3*a* Sqrt(3) / 4\n";
-    cout << "Введите число от 1 до 3 включительно";
-    cin >> a;
-    switch (a) {
+    double polojch = 0;
+    int vibor = 0;
+    cout << "1 - vvesti polojitelnoe chislo A\n" << "2 - ploshad ravnostoronnego treug\n" << "3 - perimeter ravnostoronnego treug\n";
+    cout << "vvedite chislo ot 1 do 3\n";
+    cin >> vibor;
+    switch (vibor) {
 
-    case 1: enterA;
-    case 2: stre;
-    case 3: pertre;
-     
-    default: cout << "неправильный ввод";
+    case 1: enterA(polojch);
+        break;
+    case 2: stre();
+        break;
+    case 3: pertre();
+        break;
+
+    default: cout << "error\n";
     }
-
+}
