@@ -2,6 +2,18 @@
 
 #include <iostream>
 #include <cmath>
+/**
+    @file Programa.cpp
+    @brief Файл исходных кодов 
+    @copyright ВоГУ
+    @author Громов И.А.
+    @date 30-06-2024
+    @version 1.0.0
+\pаr Использует файл:
+    @ref Gromov_module.h
+\par Содержит класс:
+    @ref Gromov_module.h
+*/
 using namespace std;
 double enterA(double a) {
     cout << "vvedite polojitelnoe chislo A\n";
